@@ -1,0 +1,78 @@
+Pembaharuan Setelah 20/07/2022 20:00
+    Admin
+        01. Harus memasukkan alasan penolakan pembayaran oleh pelanggan
+
+    Pelanggan
+        01. Mendapatkan alasan penolakan pembayaran dari admin
+
+
+Pembaharuan Setelah 16/07/2022 20:00
+    Semua
+        01. 
+
+    Admin
+        01. Penambahan komentar di detail artikel
+        02. Penyertakan bukti transfer ketika menyelesaikan permintaan penarikan saldo arsitek
+        03. Penambahan menu laporan keuangan
+        04. Filter tanggal setiap laporan kecuali saldo, laporan saldo merupakan summary
+
+    Arsitek
+        01. Minimal harga produk sekarang adalah 5juta
+        02. Sekarang Arsitek perlu menyampaikan tawaran harga kepada pelanggan sebelum diterima pelanggan
+        03. DP sekarang bernilai absolut yaitu 2juta
+        04. Pembayaran kedua bernilai hasil kalkulasi tawaran harga dikurang 2 juta
+        05. Aksi baru, berupa desain yang bisa ditambahkan dan dihapus jika status pesanan sedang dikerjakan (1)
+        06. Arsitek bisa melihat bukti transfer di menu saldo
+
+    Pelanggan
+        01. Memperbaharui rating/bintang dihalaman depan
+        02. Penambahan kolom komentar di artikel
+        03. Pelanggan harus mengisi form luas tanah dan detail desain yang diinginkan
+        04. Setelah mendapatkan tawaran harga dari arsitek, pelanggan perlu melakukan aksi lebih lanjut
+        05. Aksi baru, berupa desain yang dikirimkan oleh arsitek
+
+    *Keterangan:
+        01. SQL Baru v6.0
+
+============== [Update-an Sebelumnya] ==============
+Pembaharuan Setelah 14/07/2022 20:00
+    Semua
+        01. -
+
+    Admin
+        01. Pada Menu Calon Arsitek, admin bisa memberikan alasan penolakan terhadap arsitek yang akan dikirim ke menu notifikasi dan email
+        02. Pada Menu Laporan Produk, tidak menampilkan data arsitek lagi tetapi cuman menampilkan url link profil
+        03. Pada Menu Ekspor Laporan Produk, tidak menampilkan data arsitek lagi.
+
+    Arsitek
+        01. Menambahkan notifikasi saat mendaftar menjadi arsitek baik itu diterima atau ditolak berupa notifikasi dan email
+
+    Pelanggan
+        01. Pencarian kedua di index sekarang memiliki filter
+
+    *Keterangan: 
+        00. Belum ada SQL Baru untuk sekarang
+        01. Pengiriminan EMAIL masih menggunakan faker email (Mailtrap.io) jadi tidak menggunakan email sungguhan (sudah tidak bisa)
+            dan Mailtrap.io juga memiliki limit. Jadi gunakan semaksimal mungkin.
+
+Pembaharuan Setelah Sidang Terakhir
+    Semua
+        01. Memperbaharui Tampilan Navbar Dasbor
+        02. Memperbaharui Tampilan Icon pada setiap Menu
+        03. Memperbaharui Tampilan Chat ketika kamu / lawan bicara mengirim pesan
+
+    Admin
+        01. Memperbaharui tampilan Data Pengguna di Dasbor dan menambahkan 'Total Admin'
+        02. Menambahkan 'TOP 3 Pendapatan Terbanyak dan Pesanan Terbanyak Arsitek' di Dasbor
+        03. Menambahkan 'Grafik Pendapatan dan Pesanan Seluruh Arsitek dalam 12 bulan Terakhir' di Dasbor
+        04. Secara default semua tabel yang memiliki filter akan menampilkan rentang tanggal dari 1 tahun sebelum tanggal sekarang sampai tanggal sekarang
+        05. Pada 'Menu Pesanan Arsitek', sekarang menampilkan data dalam 'rentang waktu' tertentu
+        06. Menghilangkan Aksi 'Riwayat Pembayaran' di 'Menu Pesanan Arsitek' dan menggantinya dengan menambahkan kolom 'total dibayar' dan 'status pembayaran'
+
+    Arsitek
+        01. Memperbaharui tampilan 'Grafik' di dasbor
+
+    Pelanggan
+        01. Memperbaiki Bug Terbilang saat pembayaran kedua
+
+    *Keterangan: Belum Ada SQL Baru untuk sekarang.

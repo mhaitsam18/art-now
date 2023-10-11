@@ -1,0 +1,30 @@
+Awal
+01. Copy Folder ini (art-now) pindahkan ke folder htdocs. Nama Folder harus art-now
+    Contoh: jika folder htdocs di C:/xampp/htdocs
+    File Directory
+    |C:
+    |└───xampp
+    |    └───htdocs
+    |        └───art-now
+    |            ├───app
+    |            ├───public
+    |            │   └───index.php
+    |            └───konfigurasi.txt (File sekarang)
+
+02. Buat database baru di PHPMyAdmin (http://localhost/phpmyadmin) dengan nama art_now 
+    *note: Hidupkan MySQL dan Apache di aplikasi XAMPP Control Panel terlebih dahulu
+03. Di dalam database art_now pilih import dan pilih file dari ~(xampp directory)/htdocs/art-now/art_now.sql
+    atau file art_now.sql
+04. Tekan Go
+
+Hasil
+05. Jika semua langkah di atas berhasil dilakukan maka ketika membuka http://localhost/art-now/public
+    maka akan menampilkan sebuah halaman index kosong.
+06. Akan tersedia satu akun admin dengan id 1 dengan:
+    Email   : admin@gmail.com
+    Password: Secret123
+
+NOTE!!!
+07. JANGAN MENGHAPUS AKUN DENGAN ID 1. Karna itu akun penting.
+08. Halaman depan masih kosong. Daftar sebagai arsitek secara manual dan tambahkan beberapa produk.
+09. Jika ada updatean terbaru anda bisa me-replace folder dan database (delete and re-add).
